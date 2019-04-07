@@ -1,0 +1,48 @@
+{
+  "name": "Holdover Lich",
+  "baseManaCost": 6,
+  "type": "MINION",
+  "heroClass": "ANY",
+  "baseAttack": 5,
+  "baseHp": 6,
+  "rarity": "EPIC",
+  "description": "Friendly minions don't take fatal damage until the end of the turn.",
+  "trigger": {
+    "eventTrigger": {
+      "class": "FatalDamageTrigger",
+      "sourcePlayer": "BOTH",
+      "targetEntityType": "FRIENDLY_MINIONS",
+      "targetPlayer": "SELF"
+    },
+    "spell": {
+      "class": "MetaSpell",
+	  "target": "EVENT_TARGET",
+      "spells": [
+        {
+          "class": "AddAttributeSpell",
+          "attribute": "CANNOT_REDUCE_HP_BELOW_1",
+          "revertTrigger": {
+            "class": "TurnEndTrigger",
+            "targetPlayer": "BOTH"
+          }
+        },
+		{
+		  "class": "AddEnchantmentSpell",
+          "trigger": {
+            "eventTrigger": {
+              "class": "TurnEndTrigger",
+              "targetPlayer": "BOTH"
+            },
+            "spell": {
+              "class": "DestroySpell",
+              "target": "SELF"
+            }
+		  }
+        }
+      ]
+	}
+  },
+  "collectible": true,
+  "set": "CORE",
+  "fileFormatVersion": 1
+}

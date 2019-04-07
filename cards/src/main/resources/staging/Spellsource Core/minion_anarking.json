@@ -1,0 +1,28 @@
+{
+  "name": "Anarking",
+  "baseManaCost": 5,
+  "type": "MINION",
+  "heroClass": "ANY",
+  "baseAttack": 4,
+  "baseHp": 4,
+  "rarity": "EPIC",
+  "description": "Aftermath: Destroy the minion with the highest Health.",
+  "targetSelection": "NONE",
+  "deathrattle": {
+    "spell": {
+      "class": "DestroySpell",
+      "target": "MINIONS",
+      "filter": {
+        "class": "HighestAttributeFilter",
+        "target": "MINIONS",
+        "attribute": "HEALTH"
+      }
+	}
+  },
+  "attributes": {
+    "DEATHRATTLES": true,
+  }
+  "collectible": true,
+  "set": "CORE",
+  "fileFormatVersion": 1
+}
