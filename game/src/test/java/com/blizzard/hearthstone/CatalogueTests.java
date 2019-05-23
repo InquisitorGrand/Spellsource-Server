@@ -24,7 +24,7 @@ public class CatalogueTests {
 	private static Logger LOGGER = LoggerFactory.getLogger(CatalogueTests.class);
 
 	private static String getCurrentCards() {
-		String testedUrl = "https://api.hearthstonejson.com/v1/29933/enUS/cards.json";
+		String testedUrl = "https://api.hearthstonejson.com/v1/latest/enUS/cards.json";
 		String overrideUrl = System.getProperty("spellsource.cards.url", System.getenv("SPELLSOURCE_CARDS_URL"));
 		if (overrideUrl != null && !overrideUrl.equals("")) {
 			testedUrl = overrideUrl;

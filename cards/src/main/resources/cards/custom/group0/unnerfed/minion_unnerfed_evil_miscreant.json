@@ -1,9 +1,9 @@
 {
-  "name": "EVIL Miscreant",
+  "name": "Unnerfed EVIL Miscreant",
   "baseManaCost": 3,
   "type": "MINION",
   "baseAttack": 1,
-  "baseHp": 4,
+  "baseHp": 5,
   "heroClass": "BLACK",
   "rarity": "COMMON",
   "description": "Combo: Add two random Lackeys to your hand.",
@@ -25,6 +25,6 @@
     }
   },
   "collectible": true,
-  "set": "RISE_OF_SHADOWS",
+  "set": "UNNERFED",
   "fileFormatVersion": 1
 }

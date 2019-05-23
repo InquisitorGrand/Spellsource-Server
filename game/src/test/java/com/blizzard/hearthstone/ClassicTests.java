@@ -244,8 +244,8 @@ public class ClassicTests extends TestBase {
 			Card inHand1 = receiveCard(context, player, "spell_fireball");
 			Card inHand2 = receiveCard(context, player, "spell_fireball");
 			playCard(context, player, "spell_preparation");
-			assertEquals(costOf(context, player, inHand1), 1);
-			assertEquals(costOf(context, player, inHand2), 1);
+			assertEquals(costOf(context, player, inHand1), 2);
+			assertEquals(costOf(context, player, inHand2), 2);
 			playCard(context, player, inHand1, opponent.getHero());
 			assertEquals(costOf(context, player, inHand2), 4);
 		});

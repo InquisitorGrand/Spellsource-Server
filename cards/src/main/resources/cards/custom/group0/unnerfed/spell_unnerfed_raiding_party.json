@@ -1,6 +1,6 @@
 {
-  "name": "Raiding Party",
-  "baseManaCost": 4,
+  "name": "Unnerfed Raiding Party",
+  "baseManaCost": 3,
   "type": "SPELL",
   "heroClass": "BLACK",
   "rarity": "RARE",
@@ -26,6 +26,6 @@
     }
   },
   "collectible": true,
-  "set": "RASTAKHANS_RUMBLE",
+  "set": "UNNERFED",
   "fileFormatVersion": 1
 }

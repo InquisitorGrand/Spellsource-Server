@@ -1,17 +1,17 @@
 {
-  "name": "Preparation",
+  "name": "Unnerfed Preparation",
   "baseManaCost": 0,
   "type": "SPELL",
   "heroClass": "BLACK",
   "rarity": "EPIC",
-  "description": "The next spell you cast this turn costs (2) less.",
+  "description": "The next spell you cast this turn costs (3) less.",
   "targetSelection": "NONE",
   "spell": {
     "class": "CardCostModifierSpell",
     "target": "FRIENDLY_PLAYER",
     "cardCostModifier": {
       "class": "OneTurnCostModifier",
-      "value": 2,
+      "value": 3,
       "cardType": "SPELL",
       "expirationTrigger": {
         "class": "CardPlayedTrigger",
@@ -22,6 +22,6 @@
     }
   },
   "collectible": true,
-  "set": "CLASSIC",
+  "set": "UNNERFED",
   "fileFormatVersion": 1
 }

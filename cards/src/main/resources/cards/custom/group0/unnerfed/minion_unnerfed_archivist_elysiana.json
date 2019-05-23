@@ -1,6 +1,6 @@
 {
-  "name": "Archivist Elysiana",
-  "baseManaCost": 9,
+  "name": "Unnerfed Archivist Elysiana",
+  "baseManaCost": 8,
   "type": "MINION",
   "baseAttack": 7,
   "baseHp": 7,
@@ -58,6 +58,6 @@
     "BATTLECRY": true
   },
   "collectible": true,
-  "set": "RISE_OF_SHADOWS",
+  "set": "UNNERFED",
   "fileFormatVersion": 1
 }

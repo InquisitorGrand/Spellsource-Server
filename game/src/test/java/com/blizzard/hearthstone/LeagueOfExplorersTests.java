@@ -226,7 +226,7 @@ public class LeagueOfExplorersTests extends TestBase {
 		Player player = context.getPlayer1();
 
 		playCard(context, player, "minion_summoning_stone");
-		playCard(context, player, "spell_preparation");
+		playCard(context, player, "spell_unnerfed_preparation");
 		playCard(context, player, "secret_ice_block");
 
 		assertEquals(player.getMinions().size(), 3);
