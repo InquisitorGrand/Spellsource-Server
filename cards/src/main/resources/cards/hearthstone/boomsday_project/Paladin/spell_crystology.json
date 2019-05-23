@@ -1,6 +1,6 @@
 {
   "name": "Crystology",
-  "baseManaCost": 2,
+  "baseManaCost": 1,
   "type": "SPELL",
   "heroClass": "GOLD",
   "rarity": "RARE",

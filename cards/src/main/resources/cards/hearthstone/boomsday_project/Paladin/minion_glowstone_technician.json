@@ -1,6 +1,6 @@
 {
   "name": "Glowstone Technician",
-  "baseManaCost": 6,
+  "baseManaCost": 5,
   "type": "MINION",
   "heroClass": "GOLD",
   "baseAttack": 3,

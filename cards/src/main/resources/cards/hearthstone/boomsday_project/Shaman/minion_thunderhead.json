@@ -4,7 +4,7 @@
   "type": "MINION",
   "heroClass": "SILVER",
   "baseAttack": 3,
-  "baseHp": 5,
+  "baseHp": 6,
   "rarity": "EPIC",
   "race": "ELEMENTAL",
   "description": "After you play a card with Overload, summon two 1/1 Sparks with Rush.",

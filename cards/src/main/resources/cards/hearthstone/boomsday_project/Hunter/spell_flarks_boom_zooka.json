@@ -1,6 +1,6 @@
 {
   "name": "Flark's Boom-Zooka",
-  "baseManaCost": 8,
+  "baseManaCost": 7,
   "type": "SPELL",
   "heroClass": "GREEN",
   "rarity": "LEGENDARY",

@@ -3,7 +3,7 @@
   "baseManaCost": 7,
   "type": "MINION",
   "heroClass": "RED",
-  "baseAttack": 3,
+  "baseAttack": 4,
   "baseHp": 8,
   "rarity": "EPIC",
   "race": "MECH",

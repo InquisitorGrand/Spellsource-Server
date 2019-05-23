@@ -4,7 +4,7 @@
   "type": "MINION",
   "heroClass": "RED",
   "baseAttack": 2,
-  "baseHp": 5,
+  "baseHp": 6,
   "rarity": "RARE",
   "race": "MECH",
   "description": "Whenever this minion takes damage, summon a 2/3 Mech with Taunt",

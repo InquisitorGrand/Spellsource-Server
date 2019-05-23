@@ -1,6 +1,6 @@
 {
   "name": "Pogo-Hopper",
-  "baseManaCost": 2,
+  "baseManaCost": 1,
   "type": "MINION",
   "heroClass": "BLACK",
   "baseAttack": 1,

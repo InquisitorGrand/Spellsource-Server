@@ -1,6 +1,6 @@
 {
   "name": "More Arms",
-  "baseManaCost": 3,
+  "baseManaCost": 2,
   "type": "SPELL",
   "heroClass": "WHITE",
   "rarity": "RARE",

@@ -1,6 +1,6 @@
 {
   "name": "Spirit Bomb",
-  "baseManaCost": 2,
+  "baseManaCost": 1,
   "type": "SPELL",
   "heroClass": "VIOLET",
   "rarity": "COMMON",

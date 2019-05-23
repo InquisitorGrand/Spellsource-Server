@@ -1,0 +1,26 @@
+{
+  "name": "SN1P-SN4P",
+  "baseManaCost": 3,
+  "type": "MINION",
+  "heroClass": "ANY",
+  "baseAttack": 2,
+  "baseHp": 3,
+  "rarity": "LEGENDARY",
+  "race": "MECH",
+  "description": "Magnetic, Echo. Deathrattle: Summon two 1/1 Microbots",
+  "deathrattle": {
+    "class": "SummonSpell",
+    "cards": [
+      "token_microbot",
+      "token_microbot"
+    ]
+  },
+  "attributes": {
+    "MAGNETIC": true,
+    "ECHO": true,
+    "DEATHRATTLES": true
+  },
+  "collectible": true,
+  "set": "BOOMSDAY_PROJECT",
+  "fileFormatVersion": 1
+}

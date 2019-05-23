@@ -1,6 +1,6 @@
 {
   "name": "Dr. Morrigan",
-  "baseManaCost": 8,
+  "baseManaCost": 6,
   "type": "MINION",
   "heroClass": "VIOLET",
   "baseAttack": 5,

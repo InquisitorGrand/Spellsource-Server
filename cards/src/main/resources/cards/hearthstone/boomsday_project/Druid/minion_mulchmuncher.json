@@ -1,6 +1,6 @@
 {
   "name": "Mulchmuncher",
-  "baseManaCost": 10,
+  "baseManaCost": 9,
   "type": "MINION",
   "heroClass": "BROWN",
   "baseAttack": 8,

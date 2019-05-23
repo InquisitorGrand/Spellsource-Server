@@ -1,6 +1,6 @@
 {
   "name": "Gloop Sprayer",
-  "baseManaCost": 8,
+  "baseManaCost": 7,
   "type": "MINION",
   "heroClass": "BROWN",
   "baseAttack": 4,

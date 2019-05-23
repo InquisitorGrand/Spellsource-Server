@@ -1,6 +1,6 @@
 {
   "name": "Necromechanic",
-  "baseManaCost": 5,
+  "baseManaCost": 4,
   "type": "MINION",
   "heroClass": "GREEN",
   "baseAttack": 3,
