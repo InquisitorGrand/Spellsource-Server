@@ -4,56 +4,67 @@ title: What's New
 permalink: /whats-new/
 ---
 
-### 0.8.24-2.0.29 (Wednesday, April 17th, 2019)
-
-Bug fixes. Additionally, new Witch Doctor decks are in the bot rotation.
-
-Make sure to visit playspellsource.com for a full history of changes if you'd like to know more since you've last joined us!
-
-##### Content Fixes:
-
- - Omega Dragon is now a dragon.
- - Lush Restoration now shows the correct amount of health that needs to be restored.
- - Raid Boss Gnaxx now correctly says +2 attack buffs.
- - Hexlord Zixxis now works.
- - Mutamite Terror now discards your rightmost card.
-
-### 0.8.23-2.0.29 (Tuesday, April 16th, 2019)
+### 0.8.30-2.0.30 (In Progress)
 
 Bug fixes.
 
 ##### Content Fixes:
 
- - Choose and reshuffle effects shuffle in the original card, rather than a copy, as intended.
- - Mind Controlled Mech now correctly cannot attack.
- - Spiritual Diffusion now correctly destroys three random enemy minions and replaces them with 2/2 Spirits.
- - Thelia Silentdreamer now correctly causes spells to be cast twice on her.
- - Doby Mick's effect is now an Opener.
- - Shadow Puppetry now works.
- - Sideline Coach now costs (5).
- - Frostfeather now has 5 health.
- - Noth the Plaguebringer now correctly shuffles in cards.
- - Glaciar Cleaver now costs (7).
- - Frost Wraith is now 3/3.
- - Pond Lord now summons two frogs instead of three as its aftermath.
- - Baleful Totem is now a Shaman card and is 3/3.
- - Rallying Cry now costs (2).
- - Deepwood Barghest now behaves closer to Keleseth with regards to decks containing secrets (as opposed to cost-2 cards).
- - Light of Chi-Ji now sets costs to (1).
- - Sleight of Hand now costs (2).
- - Crimson General is now a cost (2) 2/2.
- - Fire Breath now says "Deal 3 damage to a minion and 2 damage to the enemy champion."
- - Drakonid Bruiser is now a cost (5) 4/4 with Blitz.
- - Dragon Treasurer is no longer collectible.
- - Rheastrasza now summons a 4/4 Dragon with Blitz.
- - Underminer is now a cost (2) 4/1.
- - Mountain Whelp is now a cost (3) 2/4 with Blitz.
- - Lava Saber now only summons one Whelp.
- - Attempting to mind control Aysa Cloudsinger no longer crashes the game.
+ - Daring Duelist now only draws a card when it survives damage. (1111)
+
+### 0.8.29-2.0.30 (Thursday, May 23rd, 2019)
+
+Bug fixes. Special thanks to @Bdg and @Pircival for testing and putting together the fixes flawlessly.
+
+##### Content Fixes:
+
+ - Disco Inferno now swaps stats with a friendly minion. (1109)
+ - Ninjarcher now deals 2 damage to a random enemy. (1101)
+ - Malicious Magpie now deals damage only when other minions attack. (1100)
+ - Bloody Blade is now a 3/2. (1102)
+ - Redhide Butcher now has the correct effect and rarity. (1104)
+ - Sly Conquistador now has Dodge. (1107)
+ - Terrified Tanooki now gains +1 attack. (1108)
+ - Attrition Master now affects minions during both player's turns.
+ - Gurubashi Berserker now transforms once into a Rage Behemoth without incorrectly summoning more tokens. (1110)
+ - Northot, Necromaster no longer has an infinite loop interaction with your Falling Crusader (for your troubles).
+ - Shapeseeper now correctly buffs its stats. (1106)
+ - Doomed Diver now triggers correctly. (1103)
+
+### 0.8.28-2.0.30 (Thursday, May 23rd, 2019)
+
+Hearthstone updates. Thanks to @doombubbles for the great contribution!
+
+The 0.8 series will be the last to receive Hearthstone updates.
 
 ##### Content Additions:
- 
- - Drakonid Commander: Cost (8) 6/6 Dragon, "Opener: Give a character +4 Attack this turn."
+ - The Rise of Shadows set for Hearthstone
+ - Standard rotation into Year of the Dragon
+
+### 0.8.27-2.0.30 (Thursday, May 23rd, 2019)
+
+Thanks to @Phyley for contributing new fixes to Vermancer!
+
+Bug fixes.
+
+##### Content Additions:
+
+ - 9 new cards in the Vermancer class.
+
+##### Content Fixes:
+
+ - Various changes to Vermancer cards.
+ - Morbid Mockery's taunt buff no longer remains attached to the target card when it enters the graveyard.
+ - Warlord Kalithresh now shuffles 7 Ocean Depths into your deck instead of 1.
+ - Kraken's Call, Gilblin Plunderer, Calm Currents, Condensation, Finding Mobus, Three Fathoms Below and Water Blast all shuffle the correct number of Ocean Depths into the deck now.
+ - Gilblin Plunderer's text is now correct.
+ - Desert Maiden is now collectible again (it previously broke the bot, but does not anymore).
+ - Evaporation now deals 3 damage to all enemy minions.
+ - Wrath of the Occult no longer requires targeting.
+
+##### Usability Fixes:
+
+ - It is no longer possible to select a neutral champion in the deck creation screen.
 
 ### 0.8.22-2.0.29 (Thursday, April 11th, 2019)
 
@@ -72,7 +83,7 @@ The following keywords have been consistently applied to Spellsource cards:
  - Spellpower (X): Your Spells deal this much more damage.
  - Toxic: This kills minions it damages.
  - Guard: This must be destroyed before minions can attack its champion.
- 
+
 Now clarifying the following additional keywords:
 
  - Armor: Instead of losing health, lose this instead.
