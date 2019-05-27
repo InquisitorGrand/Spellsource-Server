@@ -1,10 +1,10 @@
 {
-  "name": "Storm, Earth, and Fire",
+  "name": "Fury of the Elements",
   "baseManaCost": 6,
   "type": "SPELL",
   "heroClass": "JADE",
   "rarity": "FREE",
-  "description": "Summon two random Elemental Spirits.",
+  "description": "Summon two different Elemental Spirits.",
   "targetSelection": "NONE",
   "spell": {
     "class": "MetaSpell",
